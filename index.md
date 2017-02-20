@@ -20,14 +20,6 @@ status: Teaching
 
 # Data Carpentry - SQL lesson
 
-Data Carpentry's aim is to teach researchers basic concepts, skills,
-and tools for working with data so that they can get more done in less
-time, and with less pain. The lessons below were designed for those interested
-in working with {{page.domain %}} data in {{page.topic %}}.
-
-  [Information on Lesson Status Categories]()
--->
-
 <!-- ###### INDEX OF LESSONS ON THIS TOPIC ###### -->
 
 ## Lessons:
@@ -39,8 +31,10 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 
 {% endfor %}
 
-
-
+1. [Introduction](00-sql-introduction.md)
+2. [Basic queries](01-sql-basic-queries.md)
+3. [Aggregation](02-sql-aggregation.md)
+4. [Joins and Aliases](03-sql-joins-aliases.md)
 
 
 <br>
