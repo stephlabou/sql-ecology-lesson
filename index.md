@@ -18,22 +18,13 @@ status: Teaching
 
 <!-- Get the information from _data/info.yml -->
 
-# Data Carpentry {{ page.topic }} for {{ page.domain }}
+# Data Carpentry - SQL lesson
 
 Data Carpentry's aim is to teach researchers basic concepts, skills,
 and tools for working with data so that they can get more done in less
 time, and with less pain. The lessons below were designed for those interested
 in working with {{page.domain %}} data in {{page.topic %}}.
 
-
-**Content Contributors: {{page.contributors | join: ', ' %}}**
-
-
-**Lesson Maintainers: {{page.maintainers | join: ', ' %}}**
-
-
-#### Lesson status: {{ page.status }}
-<!--
   [Information on Lesson Status Categories]()
 -->
 
@@ -50,9 +41,6 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 
 
 
-## Data
-
-Data files for the workshop are available here: [{{page.dataurl %}}]({{page.dataurl %}})
 
 
 <br>
@@ -67,19 +55,5 @@ through this lesson requires working copies of the software described below.
 To most effectively use these materials, please make sure to install everything
 <em>before</em> working through this lesson.
 </p>
-
-
-
-{% if page.software == "Python" %}
-{% include pythonSetup.html %}
-{% elsif page.software == "Spreadsheets" %}
-{% include spreadsheetSetup.html %}
-{% elsif page.software == "R" %}
-{% include rSetup.html %}
-{% elsif page.software == "SQL" %}
-{% include sqlSetup.html %}
-{% else %}
-{% include anySetup.html %}
-{% endif %}
 
 <p><strong>Twitter</strong>: @datacarpentry
