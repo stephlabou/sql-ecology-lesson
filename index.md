@@ -24,13 +24,6 @@ status: Teaching
 
 ## Lessons:
 
-
-{% for lesson in site.data.lessons %}
-
-1. [{{ lesson.name }}]({{ lesson.url }})
-
-{% endfor %}
-
 1. [Introduction](00-sql-introduction.md)
 2. [Basic queries](01-sql-basic-queries.md)
 3. [Aggregation](02-sql-aggregation.md)
