@@ -294,4 +294,4 @@ but using `AS` is much clearer so it is good style to include it.
 > 8. Solution: `SELECT surveys.species_id, year, AVG(weight) as mean_weight FROM surveys JOIN species ON surveys.species_id=species.species_id WHERE taxa = 'Rodent' GROUP BY surveys.species_id, year`
 
 
-Previous: [SQL Aggregation](02-sql-aggregation.html)
+Previous: [SQL Aggregation](02-sql-aggregation.md)
