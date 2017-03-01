@@ -244,4 +244,4 @@ FROM summer_2000
 WHERE sex != 'M' OR sex IS NULL
 ~~~
 
-Previous: [SQL Basic Queries](01-sql-basic-queries.html) Next: [Joins and aliases.](03-sql-joins-aliases.html)
+Previous: [SQL Basic Queries](01-sql-basic-queries.md) Next: [Joins and aliases.](03-sql-joins-aliases.md)
