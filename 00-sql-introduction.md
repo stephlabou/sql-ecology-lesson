@@ -263,4 +263,4 @@ The following table shows some of the common names of data types between the var
 | string (variable)                                       | Text (<256) / Memo (65k+) | Varchar              | Varchar / Varchar2 | Varchar        | Varchar       |
 | binary object	OLE Object Memo	Binary (fixed up to 8K)   | Varbinary (<8K)           | Image (<2GB)	Long | Raw	Blob          | Text	Binary | Varbinary     |
 
-Previous: [Index](index.html) Next: [Basic queries.](01-sql-basic-queries.html)
+Previous: [Index](index.html) Next: [Basic queries.](01-sql-basic-queries.md)
